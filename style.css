@@ -507,7 +507,7 @@ svg{
     }
     .exp p{margin-top: 75px;}
   }
-  @media screen and (max-width: 350px){
+  @media screen and (min-width: 350px){
 .svg-absolute{
     position: absolute;
     top: 1685px;
