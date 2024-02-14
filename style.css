@@ -152,6 +152,25 @@
     margin-top: 140px;
 
 }
+.insta-links img{
+margin-right: 20px;
+}
+.insta-links p{
+    margin-left: 20px;
+}
+.insta-links{
+    color: rgb(169, 38, 132);
+font-family: 'Benzin';
+font-size: 16px;
+font-weight: 800;
+line-height: 15px;
+letter-spacing: -1%;
+text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
 .accordeon{
     margin-top: 20px;
     color: #fff;
@@ -429,7 +448,7 @@ svg{
     .container{
         margin: auto;
         max-width: 420px;
-        height: 5550px;
+        height: 5730px;
         background-image: url(./img/mainBackGround.svg);
         background-size: cover;
         background-repeat: no-repeat;
