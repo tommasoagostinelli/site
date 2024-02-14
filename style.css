@@ -332,6 +332,11 @@
         color: #FFF;
     }
 }
+.svg-cc{
+    border: 1px solid #009542;
+    border-radius: 12px;
+    height: 100px;
+}
 
 .form-button{
     width: 100px;
