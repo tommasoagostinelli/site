@@ -6,6 +6,9 @@
     list-style: none;
     outline: none;
 }
+/* :root{
+--violet: #
+} */
 @font-face {
     font-family: 'Benzin';
     src: local('Benzin Extra Bold'), local('Benzin-Extra-Bold'),
@@ -19,11 +22,19 @@
 .container{
     margin: auto;
     max-width: 430px;
-    height: 6050px;
-    background-image: url(./img/mainBackGround.svg);
+    height: 5550px;
+    /* background-image: url(./img/mainBackGround.svg); */
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+
+}
+.mainLogo{
+    background-image: url(./img/photobg.png);
+    height: 373px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .logo{
     font-family: 'Benzin';
@@ -31,30 +42,41 @@
     color: #fff;
     font-size: 40px;
     line-height: 55px;
-    width: 269px;
     margin: auto;
-    padding-top: 42px;
+}
+.h1-margin{
+    margin-top: -9px;
 }
 .logo2{
     font-family: 'Benzin';
     font-weight: 800;
     color: #fff;
-    font-size: 40px;
+    font-size: 23px;
     line-height: 55px;
-    width: 269px;
-    margin: auto;
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.logo3{
     margin-top: -15px;
 }
+.aboutMe{
+    margin-top: 70px;
+}
+.about-first-img{
+    text-align: center;
+}
 .aboutMe .name{
-    margin-top: 690px;
     color: rgb(255, 255, 255);
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0%;
+    line-height: 20px;
+
     text-align: left;
-    margin-left: 24px;
+    margin-left: 25px;
+    margin-top: 65px;
 }
 .aboutMe .text{
     margin-top: 15px;
@@ -65,28 +87,29 @@
     font-family: Arial;
     font-size: 11px;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: -1%;
+    line-height: 18px;
     text-align: left;
 }
 .howChanged{
-    margin-top: 489px;
-    width: 112px;
+    max-width: 212px;
     height: 277px;
     color: rgb(255, 255, 255);
     font-family: Arial;
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 400;
     line-height: 15px;
     letter-spacing: 0%;
     margin-right: 32px;
-    margin-bottom: 100px;
 }
 .howChangedFlex{
-    display: flex;
-    justify-content: end;
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+
 }
+
 .howChanged p{
+    margin-left: 20px;
     margin-bottom: 13px;
 }
 .counter-container{
@@ -299,7 +322,7 @@ text-align: left;
   }
 
   .form-below{
-    width: 255px;
+    max-width: 305px;
     margin: auto;
     font-family: 'Benzin';
     font-size: 13px;
@@ -309,10 +332,113 @@ text-align: left;
     text-align: left;
     color: #fff;
   }
+  .cosa-div{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .headline4{
+    margin-top: 80px;
+    margin-left: -20px;
+  }
+  .cosa-flex{
+display: flex;
+justify-content: space-around;
+
+}
+.cosa-flex p{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+
+}
+.headline5{
+    text-align: center;
+}
+.container-hd5{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/onback.png);
+}
+.p-border{
+    width: 280px;
+    height: 70px;
+    border: 1px solid #009542;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    }
+.stars-flex{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+        height: 50px;
+        width: 290px;
+        margin: auto;
+}
+.stars-flex p{
+    margin-left: 15px;
+}
+.headlinebg6{
+    background-image: url(./img/headlinebg6.svg);
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headlinebg6 h1{
+    text-align: center;
+    padding-top: 85px;
+    color: rgb(169, 38, 132);
+    font-family: 'Benzin';
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 67px;
+    text-transform: uppercase;
+}
+.h4p{
+width: 130px;
+margin-left: -20px;
+}
+.h4p2{
+    width: 130px;
+margin-left: 20px;
+}
+.cosa-flex h4{
+color: rgb(255, 255, 255);
+font-family: 'Benzin';
+font-size: 11px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+margin-bottom: 5px;
+}
   span{
     color: #A92684;
   }
   .form-bellow-p{
+    margin-top: 130px;
     margin-bottom: 20px;
   }
   .book-gift-1, .book-gift-2{
@@ -355,6 +481,7 @@ text-align: left;
     border: 1px solid #009542;
     border-radius: 12px;
     height: 100px;
+    margin-top: 110px;
 }
 
 .form-button{
@@ -387,31 +514,47 @@ text-align: left;
 .form-text{
     padding-top: 10px;
 }
+.il-tuo-img{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.ti-svg{
+display: flex;
+justify-content: center;
+margin-left: -150px;
+margin-top: 5px;
+
+}
 .img1{
-    position: absolute;
-    right:210px;
-    width: 142px;
-    top: 285px;
-    z-index: 10;
+    margin-bottom: 130px;
+    margin-right: -5px;
+    z-index: 5;
+
 }
 .img2{
-    position: absolute;
-    right: 75px;
-    top: 351px;
-    width: 144px;
-    z-index: 1;
+ z-index: 1;
+}
+.sudi-flex{
+display: flex;
+justify-content: space-around;
+}
+.headline3{
+    margin-top: 170px;
+    text-align: center;
 }
 .img3{
     position: absolute;
     right: 35px;
-    top: 971px;
+    top: 891px;
     width: 144px;
     z-index: 30;
 }
 .img4{
     position: absolute;
     right: 90px;
-    top: 1116px;
+    top: 1026px;
     width: 144px;
 }
 svg{
@@ -422,155 +565,37 @@ svg{
     top: 1960px;
 }
 .one-shot{
-    margin-top: 2350px;
- margin-left: 30px;
-}
-.img5{
-    position: absolute;
-    top: 1530px;
-    left: 40px;
-}
-@media screen and (max-width: 400px) {
-    .howChanged{
-        margin-top: 420px;
-    }
-    .aboutMe .name{
-        margin-top: 620px;
-    }
-    .exp{
-
-        margin-top: 1350px;
-    }
-
-  }
-  
-  @media screen and (max-width: 375px){
-    .container{
-        margin: auto;
-        max-width: 420px;
-        height: 5730px;
-        background-image: url(./img/mainBackGround.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    .one-shot{
-        margin-top: 2150px;
-     margin-left: 30px;
-    }
-    .img5{
-        position: absolute;
-        top: 1360px;
-        left: 40px;
-    }
-    .howChanged{
-        margin-top: 390px;
-    }
-    .aboutMe .name{
-        margin-top: 620px;
-    }
-    .exp{
-
-        margin-top: 1210px;
-    }
-    .img1{
-        position: absolute;
-        right:185px;
-        width: 142px;
-        top: 265px;
-        z-index: 10;
-    }
-    .img2{
-        position: absolute;
-        right: 50px;
-        top: 331px;
-        width: 144px;
-        z-index: 1;
-    }
-    .img3{
-    position: absolute;
-    right: 25px;
-    top: 807px;
-    z-index: 30;
-}
-.svg-absolute{
-    position: absolute;
-    top: 1750px;
-}
-.img4{
-    position: absolute;
-    right: 70px;
-    top: 937px;
-}
-
-.accordeon{
-    color: #fff;
-    width: 272px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 12px;
+    display: block;
     margin: auto;
-    background-image: linear-gradient(#009542, #000, #000);
-    margin-top: 30px;
-
 }
-.exp-svg{
-    margin-top: 35px;
-    position: absolute;
+.il-tuo-mentore{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    
 }
-.exp p{
-    color: rgb(255, 255, 255);
-  font-family: Arial;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 13px;
-  letter-spacing: -1%;
-  text-align: center;
-  width: 260px;
-  height: 39px;
-  margin-top: 55px;
+.first-p{
+    font-family: 'Benzin';
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 14%;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #A92684;
 }
-  }
-  @media screen and (min-width: 350px){
-.svg-absolute{
-    position: absolute;
-    top: 1685px;
-}
-  }
-  @media screen and (max-width: 365px){
-    .howChanged{
-        margin-top: 370px;
-    }
-    .aboutMe .name{
-        margin-top: 580px;
-    }
-  }
-  @media screen and (max-width: 385px){
-    .counter-container{
-        margin-top: 0px;
-    }
-  }
-  @media screen and (max-width: 320px){
-    .img1{
-        position: absolute;
-        right:155px;
-        width: 142px;
-        top: 215px;
-        z-index: 10;
-    }
-    .img2{
-        position: absolute;
-        right: 10px;
-        top: 71px;
-        z-index: 1;
-    }
-    .img3{
-        position: absolute;
-        right: 23px;
-        top: 671px;
-        width: 144px;
-        z-index: 1;
-    }
-    .img4{
-        display: none;
-    }
+.second-p{
+    font-family: 'Benzin';
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 14%;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #009542;
+    margin-top: 20px;
+    margin-left: -5px;
 }
