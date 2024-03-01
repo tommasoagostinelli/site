@@ -22,7 +22,7 @@
 .container{
     margin: auto;
     max-width: 430px;
-    height: 5550px;
+    height: 5250px;
     /* background-image: url(./img/mainBackGround.svg); */
     background-color: #000;
     background-size: cover;
@@ -193,7 +193,7 @@ text-align: left;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .accordeon{
     margin-top: 20px;
@@ -487,30 +487,6 @@ margin-bottom: 5px;
     margin-top: 110px;
 }
 
-.form-button{
-    width: 100px;
-    height: 40px;
-    border-radius: 4px;
-    border: none;
-    background: #A92684;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #FFF;
-    text-align: center;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 187.5% */
-    letter-spacing: 0.96px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-}
-.form-action{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
 .label-margin{
     margin-top: 25px;
 }
@@ -606,4 +582,53 @@ svg{
     margin-top: -20px;
     -webkit-text-stroke: 0.7px #000;
     font-size: 11px;
+}
+.whatsapp-link{
+    margin-top: 131px;
+}
+.text-border{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 104px;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #FFF;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.w-a-link{
+    color: #009542;
+}
+.text-border-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Benzin';
+    font-size: 12px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.t-whatsapp-link{
+    border: 1px solid rgb(169, 38, 132);
+    border-radius: 12px;
+    background: rgb(169, 38, 132);
+    width: 272px;
+    height: 37px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
 }
